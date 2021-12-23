@@ -80,12 +80,13 @@ void setup()
 
   myDFPlayer.volume(volume);  //Set volume value. From 0 to 30
 
-  //myDFPlayer.EQ(DFPLAYER_EQ_NORMAL);
+  myDFPlayer.EQ(DFPLAYER_EQ_NORMAL);
   // myDFPlayer.EQ(DFPLAYER_EQ_POP);
   //  myDFPlayer.EQ(DFPLAYER_EQ_ROCK);
   //  myDFPlayer.EQ(DFPLAYER_EQ_JAZZ);
   //myDFPlayer.EQ(DFPLAYER_EQ_CLASSIC);
-  myDFPlayer.EQ(DFPLAYER_EQ_BASS);
+  //myDFPlayer.EQ(DFPLAYER_EQ_BASS);
+  //myDFPlayer.loopFolder(2);
 
 }
 
